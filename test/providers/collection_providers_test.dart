@@ -63,7 +63,7 @@ void main() async {
     final notifier = container.read(collectionStateNotifierProvider.notifier);
 
     const model = HttpRequestModel(
-      url: 'https://sse-demo.netlify.app/sse',
+      url: 'https://api.apidash.dev/sse/events/5',
       method: HTTPVerb.get,
     );
 
